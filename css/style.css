@@ -431,15 +431,61 @@ h3 .title {
 
 /* CLIENTS */
 
-.clients-link {
-  display: flex;
-  height: 170px;
-  width: 90px;
-  justify-content: center;
-  align-items: center;
-
+.clients {
+  padding: 94px 215 px;
 }
 
+.clients-list {
+  margin: 0;
+  padding: 0;
+
+  display: flex;
+}
+
+.clients-items:not(:last-child) {
+  margin-right: 30px;
+}
+
+.clients-link {
+  display: flex;
+  width: 170px;
+  height: 90px;
+  border: 1px solid #afb1b8;
+  box-sizing: border-box;
+  border-radius: 4px;
+  justify-content: center;
+  align-items: center;
+}
+
+.clients-logo-1 {
+  width: 44px;
+  height: 49px;
+}
+
+.clients-logo-2 {
+  width: 40px;
+  height: 52px;
+}
+
+.clients-logo-3 {
+  width: 41px;
+  height: 43px;
+}
+
+.clients-logo-4 {
+  width: 80px;
+  height: 43px;
+}
+
+.clients-logo-5 {
+  width: 59px;
+  height: 47px;
+}
+
+.clients-logo-6 {
+  width: 88px;
+  height: 45px;
+}
 
 /* footer */
 
