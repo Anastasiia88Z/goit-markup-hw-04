@@ -118,6 +118,8 @@ p {
 
 ul {
   list-style: none;
+  padding: 0;
+  margin: 0;
 }  
 
 .header-nav,
@@ -132,15 +134,15 @@ ul {
 }
 
 .icon-header1 {
-  width: 16px;
-  height: 12px;
+  width: 18px;
+  height: 18px;
   margin-right: 10px;
   fill: currentColor;
 }
 
 .icon-header2 {
-  width: 10px;
-  height: 16px;
+  width: 18px;
+  height: 18px;
   margin-right: 10px;
   fill: currentColor;
 }
@@ -328,44 +330,35 @@ h3 .title {
   background-color: var(--background-white);
 }
 
-.social-list {
+.social-list { 
   display: flex;
   padding: 16px 32px 30px;
-  fill: currentColor;
-  
-  /* padding: 0px;
-  margin: 0px; */
-}
-
-.instagram-icon {
-  fill: var(--icon-color);
-}
-
-.instagram-icon:hover,
-.instagram-icon:focus {
-  fill: var(--white-text);
 }
 
 .social-link {
-  display: flex;
   height: 44px;
   width: 44px;
-  background-color: var(--white-text);
-  border-radius: 50%;
+  display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 10px;
+  border-radius: 50%;
+
   color: var(--icon-color);
   fill: var(--white-text);
- 
-}
-
-.social-link:hover,
-.social-link:focus {
-  background-color: var(--blue-text);
-
+  background-color: var(--white-text);
   
 }
+
+.instagram-icon {
+  fill: currentColor;
+}
+
+.social-link:hover, 
+.social-link:focus { 
+  background-color: var(--blue-text);
+  color: var(--white-text); 
+}
+
 
 /* WORK */
 
@@ -434,10 +427,7 @@ h3 .title {
 .clients {
   padding-top: 94px;
   padding-bottom: 94px;
-  padding-left: 215px;
-  padding-right: 215px;
-  width: 1170px;
-  max-height: 182px;
+
 }
 
 .clients-list {
@@ -461,77 +451,41 @@ h3 .title {
   justify-content: center;
   align-items: center;
   color: var(--icon-color);
+
+  background-color: var(--white-text);
 }
 
 .clients-link:hover,
 .clients-link:focus { 
   border: 1px solid var(--blue-text);
+  color: var(--blue-text);
 }
 
 .clients-logo-1 {
-  width: 44px;
-  height: 49px;
   fill: currentColor;
-}
-
-.clients-logo-1:focus,
-.clients-logo-1:hover {
-  fill: var(--blue-text);
 }
 
 .clients-logo-2 {
-  width: 40px;
-  height: 52px;
   fill: currentColor;
-}
-
-.clients-logo-2:focus,
-.clients-logo-2:hover {
-  fill: var(--blue-text);
 }
 
 .clients-logo-3 {
-  width: 41px;
-  height: 43px;
   fill: currentColor;
 }
 
-.clients-logo-3:focus,
-.clients-logo-3:hover {
-  fill: var(--blue-text);
-}
 
 .clients-logo-4 {
-  width: 80px;
-  height: 43px;
   fill: currentColor;
 }
 
-.clients-logo-4:focus,
-.clients-logo-4:hover {
-  fill: var(--blue-text);
-}
 
 .clients-logo-5 {
-  width: 59px;
-  height: 47px;
   fill: currentColor;
 }
 
-.clients-logo-5:focus,
-.clients-logo-5:hover {
-  fill: var(--blue-text);
-}
 
 .clients-logo-6 {
-  width: 88px;
-  height: 45px;
   fill: currentColor;
-}
-
-.clients-logo-6:focus,
-.clients-logo-6:hover {
-  fill: var(--blue-text);
 }
 
 
@@ -660,6 +614,7 @@ h3 .title {
 }
 
 /* кнопки */
+
 .main .button  {
   background-color: var(--backgroung-white);
   color: var(--black-text);
@@ -667,7 +622,7 @@ h3 .title {
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
-  font-family: inherit;
+  font-family: inherit
 }
 
 .button:hover,
@@ -721,6 +676,7 @@ h3 .title {
   
   display: flex;
   justify-content: center;
+
 }
 
 
@@ -754,9 +710,10 @@ h3 .title {
 .card-thumb { 
   
   /* outline: 1px solid red; */
-  width: 370px;
   height: 294px;
-  margin-right: 0;
+  width: 370px;
+  margin: 0;
+
 } 
 
 /* .site-card {
