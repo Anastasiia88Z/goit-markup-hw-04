@@ -26,6 +26,11 @@
 
 }
 
+* { 
+  box-sizing: border-box;
+} 
+
+
 body { 
   font-family: Roboto, sans-serif;
   margin: 0;
@@ -53,7 +58,15 @@ p {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
+  margin: 0;
 }
+
+h1, 
+h2,
+h3 {
+  margin: 0;
+}
+
 
 .title {
   color: var(--black-text);
@@ -86,6 +99,12 @@ p {
   font-size: 16px;
   line-height: 1.19;
   letter-spacing: 0.03em;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+ 
+.title {
+  padding-bottom: 10px;
 }
 
 /* HEADER */
@@ -276,6 +295,7 @@ ul {
 h3 .title {
   margin-top: 30px;
   margin-bottom: 10px;
+  padding-bottom: 10px;
 }
 
 .advantages {
@@ -332,8 +352,9 @@ h3 .title {
 
 .social-list { 
   display: flex;
-  padding: 16px 32px 30px;
+  padding: 16px 27px 30px;
 }
+
 
 .social-link {
   height: 44px;
@@ -342,6 +363,7 @@ h3 .title {
   justify-content: center;
   align-items: center;
   border-radius: 50%;
+  margin-right: 10px;
 
   color: var(--icon-color);
   fill: var(--white-text);
@@ -374,6 +396,7 @@ h3 .title {
 .title-w-t {
   justify-content: center;
   margin-top: 0;
+  padding-bottom: 50px;
 }
 
 .work-images {
@@ -400,6 +423,7 @@ h3 .title {
 .title-w { 
   display: flex;
   justify-content: center;
+  padding-bottom: 50px;
 }
 
 .team-list {
